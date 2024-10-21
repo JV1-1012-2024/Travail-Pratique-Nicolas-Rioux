@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangerPiece : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public RawImage imageDisplay; 
+    public Texture textureCuisine;  
+    public Texture textureSalleAManger; 
+    public Texture textureSalon; 
+
+    public void ChangerEnCuisine()
     {
-        
+        imageDisplay.texture = textureCuisine;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangerEnSalleAManger()
     {
-        
+        imageDisplay.texture = textureSalleAManger;
+    }
+
+    public void ChangerEnSalon()
+    {
+        imageDisplay.texture = textureSalon;
     }
 }
