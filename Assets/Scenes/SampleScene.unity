@@ -1889,7 +1889,6 @@ GameObject:
   m_Component:
   - component: {fileID: 355202207}
   - component: {fileID: 355202210}
-  - component: {fileID: 355202209}
   - component: {fileID: 355202208}
   m_Layer: 0
   m_Name: "Cam\xE9ra Salle \xE0 manger"
@@ -1957,14 +1956,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &355202209
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355202206}
-  m_Enabled: 1
 --- !u!20 &355202210
 Camera:
   m_ObjectHideFlags: 0
@@ -3444,9 +3435,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 95229340}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 774.95325, y: -465}
+  m_AnchorMin: {x: -50, y: 50}
+  m_AnchorMax: {x: -50, y: 50}
+  m_AnchoredPosition: {x: 97780, y: -53975}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.68976617, y: 0.50000006}
 --- !u!114 &664725282
@@ -3496,8 +3487,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6112,7 +6103,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1070136774}
   - component: {fileID: 1070136777}
-  - component: {fileID: 1070136776}
   - component: {fileID: 1070136775}
   m_Layer: 0
   m_Name: "Cam\xE9ra Salon"
@@ -6180,14 +6170,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1070136776
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070136773}
-  m_Enabled: 1
 --- !u!20 &1070136777
 Camera:
   m_ObjectHideFlags: 0
@@ -6774,6 +6756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154375060}
   - component: {fileID: 1154375061}
+  - component: {fileID: 1154375062}
   m_Layer: 5
   m_Name: Audio Source
   m_TagString: Untagged
@@ -6896,6 +6879,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &1154375062
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154375059}
+  m_Enabled: 1
 --- !u!1 &1156146530
 GameObject:
   m_ObjectHideFlags: 0
@@ -12323,7 +12314,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1969624433}
   - component: {fileID: 1969624436}
-  - component: {fileID: 1969624435}
   - component: {fileID: 1969624434}
   m_Layer: 0
   m_Name: "Cam\xE9ra Cuisine"
@@ -12391,14 +12381,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1969624435
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969624432}
-  m_Enabled: 1
 --- !u!20 &1969624436
 Camera:
   m_ObjectHideFlags: 0
